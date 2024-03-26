@@ -23,4 +23,14 @@ public class Hexagon extends Polygon {
         return equalSides * Math.sqrt(3);
     }
 
+    @Override
+    public double getPerimeter() {
+        return equalSides * 6;
+    }
+
+    @Override
+    public String toString() {
+        return "Hexagon";
+    }
+
 }

@@ -23,7 +23,7 @@ public class Trapezoid extends Quadrilateral {
     }
 
     @Override
-    protected double getPerimeter() {
+    public double getPerimeter() {
         return getSideA() + getSideB() +
                 getSideC() + getSideD();
     }

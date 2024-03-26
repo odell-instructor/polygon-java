@@ -1,7 +1,13 @@
 package com.polygon.base;
 
-public class Main {
-    public static void main(String[] args) {
+import com.polygon.controller.Controller;
+import com.polygon.model.sub.*;
 
+public class Main {
+
+    public static void main(String[] args) {
+        Controller controller = new Controller();
+        controller.processPolygon(new Trapezoid(10,15,17,22,46));
     }
+
 }

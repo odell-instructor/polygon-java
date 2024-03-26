@@ -17,8 +17,8 @@ public abstract class Polygon implements Height {
         return (numberOfSides - 2) * 180;
     }
 
-    protected abstract double getArea();
-    protected abstract double getPerimeter();
+    public abstract double getArea();
+    public abstract double getPerimeter();
 
     @Override
     public boolean equals(Object obj) {
